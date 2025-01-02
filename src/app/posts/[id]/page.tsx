@@ -92,6 +92,7 @@ export default function Post() {
   const params = useParams();
     const { id } = params;
   const post = posts.find((p) => p.id === id);
+ 
 
   if (!post) {
     return (
